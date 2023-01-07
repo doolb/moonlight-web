@@ -1,0 +1,44 @@
+#head-btn-panel {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}
+.head-btn{
+    height: 4em;
+}
+.hide {
+    display: none !important;
+}
+
+
+
+
+#pc-view{
+    display: flex;
+    max-width: 100%;
+    flex-flow: wrap;
+}
+
+.pc-item{
+    height: 270px;
+    width: 140px;
+    text-align: center;
+    margin-left: 40;
+}
+.pc-item input{
+    height: 200px;
+    width: 140px;
+    position: relative;
+    top: -75;
+}
+.pc-item img{
+    top: 50px;
+    width: 70px;
+    position: relative;
+}
+.pc-item label{
+    position: relative;
+    top: -120;
+    font-size: 40;
+    color: aliceblue;
+}
